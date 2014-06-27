@@ -1,0 +1,55 @@
+.province {
+    stroke: #999;
+    transition: fill .4s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.province:hover {
+    opacity: 1;
+}
+
+text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-anchor: middle;
+    fill: #151F09;
+}
+
+#container {
+    position: relative;
+    width: 1000px;
+    height: 850px;
+    margin: 30px auto;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 800px;
+    padding: 20px;
+    border-left: 1px solid #999;
+    box-sizing: border-box;
+}
+
+#controls {
+    position: absolute;
+    top: 810px;
+    left: 0;
+    width: 1000px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#slider {
+    display: inline-block;
+    width: 980px;
+}
